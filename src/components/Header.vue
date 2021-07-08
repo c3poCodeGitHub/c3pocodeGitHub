@@ -9,14 +9,14 @@
 </template>
 
 <script>
-import SearchModule from './SearchModule.vue'
-import Navigation from './Navigation.vue'
+import SearchModule from './SearchModule.vue';
+import Navigation from './Navigation.vue';
 
 export default {
   name: 'Header',
   components: {
     SearchModule,
-    Navigation
+    Navigation,
   }
 }
 </script>
@@ -30,6 +30,17 @@ export default {
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (max-width: 800px) {
+  .header {
+    height: 130px;
+    width: 100%;
+    background-color: rgb(253, 228, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .logo__header {
   margin-left: 10px;
   height: 40px;
@@ -38,6 +49,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items:center;
+}
+@media screen and (max-width: 800px) {
+  .logo__header {
+    margin-left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(19, 20, 19);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
 }
 .logo-text__header {
   margin-left: 10px;
@@ -50,3 +72,7 @@ export default {
 </style>
 
 // Нужно подогнать основной Желтый!!!
+
+@media screen and (max-width: 800px) {
+  
+}

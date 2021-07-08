@@ -22,6 +22,16 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 800px) {
+    .search-module-header {
+        height: 40px;
+        width: 100%;
+        background-color: rgb(19, 20, 19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+}
 .form__header {
     height: 40px;
     width: 100% ;

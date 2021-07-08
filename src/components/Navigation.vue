@@ -25,6 +25,17 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 800px) {
+  .navigation {
+    margin-right: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(19, 20, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
 .button__navigation {
     font-size: 10px;
     margin-left: 6px;
@@ -37,6 +48,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 800px) {
+.button__navigation {
+    font-size: 7px;
+    margin-left: 6px;
+    margin-right: 5px;
+    height: 26px;
+    width: 15%;
+    background-color: rgb(253, 228, 7);
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 .button__navigation:hover {
     background-color: rgb(245, 181, 6);
